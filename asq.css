@@ -1,0 +1,359 @@
+*{
+    background-color: #0d0019;
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #0d0019;
+    color: #0d0019;
+}
+#header{
+    width: 100%;
+    height: max-content;
+    background-color: #0d0019;
+}
+
+.navbar{
+    background-color: #0d0019;
+    position:sticky;
+    top: 0;
+}
+
+/* .container{
+    padding: 10px 10%;
+} */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 100px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #9d4edd;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+
+}
+/* .imgdiv{
+    position: relative;
+} */
+.myimg{
+    height: 500px;
+    width: auto;
+    border-radius:50px;
+    margin-top: 50px;
+    margin-left: 80px;
+    /* position: relative;
+    top: 100px;
+    left: 100px;
+     */
+}
+
+.header-text{
+    padding-top: 200px;
+    color: white;
+}
+
+.header-text h1,p{
+    padding-left: 100px;
+}
+
+.header-text h1 span{
+    color: #9d4edd;
+}
+
+.header-text p{
+font-size: 26px;
+}
+
+
+.header-text hr{
+    border-color: #a05dd7;
+    border: 3px solid;
+    color: #a05dd7;
+    width: 210px;
+    margin-left: 100px;
+}
+
+.socialIconsTop{
+padding-left: 100px;
+}
+
+/* ------------- */
+
+#about{
+    padding-top: 60px;
+    padding-bottom: 20px;
+
+}
+.aboutDiv{
+    font-size: 20px;
+    /* padding-top:  30px;
+    padding-bottom:  30px; */
+    padding: 20px;
+    border: 2px solid #9d4edd;
+    border-radius: 20px;
+    margin: 10px;
+}
+.aboutDiv span{
+    color: #a05dd7;
+    background-color: #0d0019;
+    font-weight: 500;
+}
+
+.moreHeading{
+    padding-bottom: 30px;
+    /* color: #a05dd7; */
+}
+
+/* ------------- */
+
+
+#skills{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.skillText{
+    padding-bottom: 30px;
+    /* color: #a05dd7; */
+}
+
+.progress-title{
+    width: 100%;
+    height: auto;
+
+}
+.progress-title h3{
+    color: #a05dd7;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 10px;
+}
+
+.progress{
+    height: 30px;
+    background-color: #a05dd7;
+    border-radius: 20px;
+    border: 1px solid white;
+    /* box-shadow: 0 2px 2px white; */
+    margin-bottom:40px ;
+    /* overflow: visible; */
+    /* position: relative; */
+}
+
+.progress.progress-bar{
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+/* ------------- */
+
+#project{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.projectText{
+    padding-bottom: 30px;
+    /* color: #a05dd7; */
+}
+
+.docIntro{
+    font-size: 26px;
+    padding-left: 10px;
+}
+
+.docAdv{
+    text-align: start;
+}
+
+.docAdv span{
+    color: #a05dd7;
+    font-weight: 500;
+}
+
+.docAdv ul{
+    list-style-type:square ;
+}
+
+.docAdv ul li{
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+/* __________________________ */
+
+
+#contact{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.contactText{
+    padding-bottom: 30px;
+    /* color: #a05dd7; */
+}
+
+.contact-left p{
+    padding-left: 0px;
+    font-size: 20px;
+    padding-bottom: 15px;
+
+}
+
+.contact-left p i{
+    color: #a05dd7;
+    padding-right: 10px;
+}
+
+.socialIcons a {
+    padding-right: 10px;
+    font-size: 28px;
+    transition: transform 5s;
+}
+
+.socialIcons a i:hover{
+    color: #a05dd7;
+    transform: translateY(-5px);
+}
+
+.contact-right{
+    width: 100%;
+}
+
+/* form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+} */
+
+#name,#email,#message{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+.submitbtn{
+    background-color: #a05dd7;
+    /* border: 2px solid #9d4edd; */
+    border: 0;
+    color: black;
+    font-weight: 500;
+    padding: 10px 25px;
+    border-radius: 10px;
+    /* transition: transform 5s; */
+}
+
+
+
+/* _____________________________ */
+
+ 
+nav .navicon{
+    display: none;
+}
+nav .naviconmenu{
+    display: none;
+}
+
+
+@media only screen and (max-width: 768px){
+    nav .navicon{
+        display: block;
+        font-size: 25px;
+        color: #0d0019;
+        font-weight: 600;
+    }
+
+    nav ul{
+        background: #9d4edd;
+        position: fixed;
+        top: 0;
+        right: -150px;
+        width: 150px;
+        height: 100vh;
+        /* height: 300px; */
+        padding-top: 70px;
+        padding-left: 0;
+        /* color: #0d0019; */
+        z-index: 2;
+        transition: right 0.5s;
+    }
+
+    nav ul li{
+        display: block;
+        margin-top:10px;
+        background-color: #9d4edd;
+    }
+
+    nav ul li a{
+        background-color: #9d4edd;
+        color: #0d0019;
+        font-weight: bold;
+    }
+
+    nav ul i{
+        position: absolute;
+        top: 30px;
+        left: 20px;
+        cursor: pointer;
+        background-color: #9d4edd;  
+    }
+
+    nav .naviconmenu{
+        display: block;
+        font-size: 24px;
+    }
+
+    .inputname{
+        margin-top: 30px;
+    }
+
+    /* form input, form textarea{
+        width: 400px;
+    } */
+    #name,#email,#message{
+        width: 400px;
+    }
+}
