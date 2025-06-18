@@ -6,6 +6,7 @@ export const Navbar = () => {
          <div className="flex space-x-10">
             <a href="#home" className="text-white hover:text-[#F86D00] transition">Home</a>
             <a href="#about" className="text-white hover:text-[#F86D00] transition">About</a>
+            <a href="#experience" className="text-white hover:text-[#F86D00] transition">Experience</a>
             <a href="#skills" className="text-white hover:text-[#F86D00] transition">Skills</a>
             <a href="#projects" className="text-white hover:text-[#F86D00] transition">Project</a>
             <a href="#contact" className="text-white hover:text-[#F86D00] transition">Contact</a>

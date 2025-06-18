@@ -3,6 +3,9 @@ import bgImage from "./assets/mainbg.jpg"
 import { Navbar } from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
+import Education from "./components/Experience";
+import Experience from "./components/Experience";
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -13,6 +16,8 @@ function App() {
       <Navbar />
       <Home />
       <About/>
+      <Experience/>
+      <Skills/>
     </div>
   );
 }
