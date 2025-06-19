@@ -9,13 +9,13 @@ const Project = () => {
    return (
       <section
          id="project"
-         className="px-5 sm:px-10 md:px-20 lg:px-32 py-24"
+         className="px-5 sm:px-10 md:px-20 lg:px-32 py-24 "
       >
          <h2 className="text-3xl font-bold text-[#F86D00] mb-10 text-center">
             Projects
          </h2>
 
-         <div className="flex flex-wrap justify-center gap-6">
+         <div className="flex flex-wrap justify-center gap-6 pb-24">
             {projects.map((project, index) => (
                <div
                   key={index}

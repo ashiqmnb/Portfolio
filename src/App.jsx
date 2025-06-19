@@ -6,6 +6,8 @@ import About from "./components/About";
 import Experience from "./components/Experience";
 import Skills from "./components/Skills";
 import Project from "./components/Project";
+import Contact from "./components/Contact";
+import { Toaster } from "react-hot-toast";
 
 function App() {
   return (
@@ -19,6 +21,9 @@ function App() {
       <Experience/>
       <Skills/>
       <Project/>
+      <Contact/>
+
+      <Toaster position="top-center" reverseOrder={false} />
     </div>
   );
 }
