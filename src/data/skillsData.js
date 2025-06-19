@@ -23,10 +23,10 @@ import rabbitmq from "../assets/skills/rabbitmq.svg"
 import mssql from "../assets/skills/mssql2.svg"
 
 import git from "../assets/skills/git.svg"
-import github from "../assets/skills/github.svg"
+import github from "../assets/skills/github2.svg"
 import docker from "../assets/skills/docker.svg"
 import postman from "../assets/skills/postman.svg"
-import vercel from "../assets/skills/vercel.svg"
+import vercel from "../assets/skills/vercel2.svg"
 import figma from "../assets/skills/figma.svg"
 
 

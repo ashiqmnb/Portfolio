@@ -10,14 +10,14 @@ import SkillCard from "./SkillCard";
 
 const Skills = () => {
    return (
-      <div
+      <section
          id="skills"
          className="px-5 sm:px-10 md:px-20 lg:px-32 py-48 md:py-24"
       >
          <h2 className="text-3xl font-bold text-[#F86D00] mb-4">Skills</h2>
 
          <div className="w-full  px-5 sm:px-10 md:px-20 lg:px-32 py-5">
-            <h2 className="text-2xl font-serif font-bold text-[#F86D00] mb-5 text-center">
+            <h2 className="text-2xl font-serif font-bold  mb-5 text-center">
                Programming Languages
             </h2>
             <div className="flex flex-wrap gap-3 sm:gap-4 md:gap-5 justify-center">
@@ -53,8 +53,8 @@ const Skills = () => {
             <div className="flex flex-col lg:flex-row gap-2 ">
                {/* Frontend Section */}
                <div className="w-[80%] mx-auto">
-                  <h2 className="text-2xl font-serif font-bold text-[#F86D00] mb-5 text-center">
-                  Frontend Development
+                  <h2 className="text-2xl font-serif font-bold mb-5 text-center">
+                     Frontend Development
                   </h2>
                   <div className="flex flex-wrap gap-3 sm:gap-4 md:gap-5 justify-center">
                      {frontend.map((item, index) => (
@@ -65,8 +65,8 @@ const Skills = () => {
 
                {/* Database Section */}
                <div className="flex-1">
-                  <h2 className="text-2xl font-serif font-bold text-[#F86D00] mb-5 text-center">
-                  Database
+                  <h2 className="text-2xl font-serif font-bold mb-5 text-center">
+                     Database
                   </h2>
                   <div className="flex flex-wrap gap-3 sm:gap-4 md:gap-5 justify-center">
                   {database.map((item, index) => (
@@ -80,7 +80,7 @@ const Skills = () => {
 
 
          <div className="w-full  px-5 sm:px-10 md:px-20 lg:px-32 py-5">
-            <h2 className="text-2xl font-serif font-bold text-[#F86D00] mb-5 text-center">
+            <h2 className="text-2xl font-serif font-bold mb-5 text-center">
                Backend Development
             </h2>
             <div className="flex flex-wrap gap-3 sm:gap-4 md:gap-5 justify-center">
@@ -91,7 +91,7 @@ const Skills = () => {
          </div>
 
          <div className="w-full  px-5 sm:px-10 md:px-20 lg:px-32 py-5">
-            <h2 className="text-2xl font-serif font-bold text-[#F86D00] mb-5 text-center">
+            <h2 className="text-2xl font-serif font-bold mb-5 text-center">
                Others
             </h2>
             <div className="flex flex-wrap gap-3 sm:gap-4 md:gap-5 justify-center">
@@ -100,9 +100,7 @@ const Skills = () => {
                ))}
                </div>
          </div>
-
-         <hr className="w-1/2 mx-auto border-t-2 border-[#F86D00] mt-20 rounded-full" />
-      </div>
+      </section>
    );
 };
 

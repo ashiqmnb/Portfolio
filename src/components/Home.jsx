@@ -26,7 +26,6 @@ const Home = () => {
 
 
    return (
-      <>
          <section id="home" className="h-screen flex flex-col-reverse md:flex-row items-center justify-between px-5 sm:px-10 md:px-20 lg:px-32 text-white">
                {/* Left Side */}
             <div className="flex-1 space-y-3 text-center md:text-left">
@@ -71,9 +70,6 @@ const Home = () => {
                />
             </div>
          </section>
-
-         <hr className="w-1/2 mx-auto border-t-2 border-[#F86D00] mt-4  rounded-full" />
-      </>
    );
 };
 

@@ -2,13 +2,13 @@ const SkillCard = ({ name, logo }) => {
   return (
     <div
       className="flex flex-col items-center bg-gray-900 
-             p-2 sm:p-3 md:p-4 
-             rounded-lg shadow-md 
-             w-20 sm:w-24 md:w-28 
-             transform 
-             transition-all duration-300 ease-in-out
-             hover:scale-105 
-             hover:shadow-[0_0_15px_rgba(248,109,0,0.4)]"
+        p-2 sm:p-3 md:p-4 
+        rounded-lg shadow-md 
+        w-20 sm:w-24 md:w-28 
+        transform 
+        transition-all duration-300 ease-in-out
+        hover:scale-105 
+        hover:shadow-[0_0_15px_rgba(248,109,0,0.4)]"
     >
       <img
         src={logo}
