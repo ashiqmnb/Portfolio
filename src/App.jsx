@@ -12,7 +12,7 @@ import { Toaster } from "react-hot-toast";
 function App() {
   return (
     <div
-      className="bg-center h-screen text-white  overflow-auto"
+      className="bg-center h-screen text-white  overflow-auto scroll-smooth"
       style={{ backgroundImage: `url(${bgImage})` }}
     >
       <Navbar />
